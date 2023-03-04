@@ -1,9 +1,10 @@
 package Queues;
 
 /*
+ *
  * A Queue is a FIFO data structure
  * 
- * This implementation uses an array
+ * This implementation uses an array 
  */
 
 

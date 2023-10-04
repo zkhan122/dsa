@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1f23f6a-0d2d-4a7d-96ab-bcda18cd3742" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Heaps/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heaps/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Heaps/MinIntHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Heaps/MinIntHeap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedLists/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedLists/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/MyLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedLists/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedLists/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MergeSort/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MergeSort/Info" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort/Info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MergeSort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MergeSort/diagram.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort/diagram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queues/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queues/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queues/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Queues/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stacks/Stacker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stacks/Stacker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuickSort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickSort/QuickSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

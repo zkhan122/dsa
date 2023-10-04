@@ -5,16 +5,6 @@ import java.util.Arrays;
 import java.util.Random;
 
 public class QuickSort {
-
-  /**
-   * 
-   * @param arr an arraylist of integers
-   * @return array of the integers in arr in sorted order
-   */
-
-  public static ArrayList<Integer> quickSort(ArrayList<Integer> arr) {
-    return dac_quickSort(arr);
-  }
   
   /**
    * 
@@ -22,7 +12,7 @@ public class QuickSort {
    * @return       sorted arraylist of the integers in arr 
    */
   
-  public static ArrayList<Integer> dac_quickSort(ArrayList<Integer> arr){
+  public static ArrayList<Integer> quickSort(ArrayList<Integer> arr){
       // BASE CASE
       if (arr.size() <= 1) {
           return arr; 
@@ -42,8 +32,8 @@ public class QuickSort {
             }
           }
           // CONQUER
-          ArrayList<Integer> sortedleft = dac_quickSort(leftarr);
-          ArrayList<Integer> sortedright = dac_quickSort(rightarr);   
+          ArrayList<Integer> sortedleft = quickSort(leftarr);
+          ArrayList<Integer> sortedright = quickSort(rightarr);
           // COMBINE
           ArrayList<Integer> sortedcombine = new ArrayList<Integer>();
           // TODO: combine all the elements into the solution sortedcombine
@@ -54,6 +44,17 @@ public class QuickSort {
 
       }
   }
+
+    /**
+     *
+     * @param arr an arraylist of integers
+     * @return array of the integers in arr in sorted order
+     */
+
+    public static ArrayList<Integer> sort(ArrayList<Integer> arr) {
+
+        return quickSort(arr);
+    }
   public static void testQuickSort(String name, ArrayList<Integer> test, ArrayList<Integer> expected){
     test = quickSort(test);
     if (test.equals(expected)){

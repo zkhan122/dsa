@@ -1,5 +1,6 @@
 
 
-Merge sort is a divide and conquer algorithm for sorting arrays
+Merge sort is a DIVIDE AND CONQUER algorithm for sorting arrays
 
 	- Usually done recursively
+	- Time complexity: O(nlogN)

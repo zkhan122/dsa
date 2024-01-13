@@ -1,5 +1,3 @@
-package org.com2031.q1;
-
 import java.util.*;
 import java.util.List;
 

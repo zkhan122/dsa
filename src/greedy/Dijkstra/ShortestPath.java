@@ -1,3 +1,5 @@
+package greedy.Dijkstra;
+
 public class ShortestPath {
 
     static final int TOTAL_VERTICES = 9;

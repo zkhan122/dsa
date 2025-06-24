@@ -1,4 +1,4 @@
-package org.com2031.q2;
+package greedy.WeightedIntervalScheduling;
 
 import java.util.*;
 

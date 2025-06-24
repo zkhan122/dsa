@@ -1,3 +1,5 @@
+package ClosestPair;
+
 public class Points {
 
 

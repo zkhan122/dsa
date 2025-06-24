@@ -1,3 +1,5 @@
+package greedy.WeightedIntervalScheduling;
+
 public class Interval {
 
 

@@ -9,44 +9,36 @@ import java.util.List;
 public class ContainerWithMostWater {
 
     public static int maxArea(int[] heights) {
+
+        /*
+        set left = height[i]
+        set the initial max between maxArea and 0
+        go over the heights while left < right
+        the width = right - left
+        the height = min of (left, right) as we need to have sides same
+        currentArea = width * height
+        check max(maxArea, currentArea)
+        check if the left height < right height and adjust pointers
+        if max area found then return
+
+        note: shouldnt sort as to have the optimal area we want
+        the biggest width (right - left)
+        */
         int n = heights.length;
-
-        ArrayList<Integer> areas = new ArrayList<>();
-// my n^2 solution
-//        for (int i = 0; i < heights.length; i++) {
-//            int left = i;
-//            int right = n-1;
-//
-//            while (left < right) {
-//                int width = right - left;
-//                int height =  Math.min(heights[left], heights[right]);
-//                int area = width * height;
-//                areas.add(area);
-//
-//                if (heights[left] < heights[right]) {
-//                    left++;
-//                } else {
-//                    right--;
-//                }
-//            }
-//        }
-
-        // o(n) solution
-        int left = 0;
-        int right = n -1;
         int maxArea = 0;
+        int left = 0;
+        int right = n - 1;
         while (left < right) {
             int width = right - left;
             int height = Math.min(heights[left], heights[right]);
             int currArea = width * height;
-            maxArea = Math.max(maxArea, currArea);
+            maxArea = Math.max(currArea, maxArea);
             if (heights[left] < heights[right]) {
                 left++;
             } else {
                 right--;
             }
         }
-
         return maxArea;
 
     }

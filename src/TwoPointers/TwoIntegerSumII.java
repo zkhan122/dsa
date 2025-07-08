@@ -8,39 +8,40 @@ public class TwoIntegerSumII {
 
     public static int[] twoSum(int[] numbers, int target) {
 
-        int n = numbers.length;
-        int left = 0;
-        int right = n-1;
-
         int[] solutions = new int[2];
+        int n = numbers.length;
 
-        HashMap<Integer, Integer> map = new HashMap<>();
-        int index = 1;
-        for (int num : numbers) {
-            map.put(index, num);
-            index++;
-        }
+        int left = 0;
+        int right = n - 1;
+
         while (left < right) {
-            if (numbers[left] == numbers[right]) continue;
-            int sum = map.get(left) + map.get(right);
-            if (sum > target) {
-                right--;
-            } else if (sum < target) {
-                left++;
-            } else {
-                solutions[0] = map.get(left);
-                solutions[1] = map.get(right);
+            int sum = numbers[left] + numbers[right];
+            if (sum == target) {
+                solutions[0] = left + 1;
+                solutions[1] = right + 1;
+
+                while (left < right && numbers[left] == numbers[left+1]) {
+                    left++;
+                }
+                while (left < right && numbers[right] == numbers[right-1]) {
+                    right--;
+                }
                 left++;
                 right--;
             }
+            else if (sum < target) {
+                left++;
+            } else {
+                right--;
+            }
         }
-
+        System.out.println(Arrays.toString(solutions));
         return solutions;
     }
 
     public static void main(String[] args) {
-        int[] numbers1 = {1,2,3,4};
-        System.out.println(twoSum(numbers1, 3));
+//        int[] numbers1 = {1,2,3,4};
+//        System.out.println(twoSum(numbers1, 3));
 
         int[] numbers2 = {2,3,4};
         System.out.println(twoSum(numbers2, 6));

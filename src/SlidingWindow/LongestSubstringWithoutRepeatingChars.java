@@ -1,26 +1,26 @@
 package SlidingWindow;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class LongestSubstringWithoutRepeatingChars {
 
     public static int lengthOfLongestSubstring(String s) {
-        /* my solution
-        iterate over string, add each char to list
-        if char in list continue else add
-        len(list) = answer
-        */
-        ArrayList<Character> buffer = new ArrayList<Character>();
+        int left = 0;
+        int longest = 0;
+        int N = s.length();
+        HashSet<Character> set = new HashSet<Character>();
 
-        for (int i = 0; i < s.length(); i++) {
-            char c = s.charAt(i);
-            if (buffer.contains(c)) {
-                continue;
-            } else {
-                buffer.add(c);
+        for (int right = 0; right < N; right++) {
+            while (set.contains(s.charAt(right))) {
+                set.remove(s.charAt(left)); // cuz here s[r] == s[l] so remove s[l]
+                left++;
             }
+            int window_size = (right - left) + 1;
+            longest = Math.max(longest, window_size);
+            set.add(s.charAt(right));
         }
-        return buffer.size();
+        return longest;
     }
 
     public static void main(String[] args) {

@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d1f23f6a-0d2d-4a7d-96ab-bcda18cd3742" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/LongestSubstringWithoutRepeatingChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/LongestSubstringWithoutRepeatingChars.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,32 +34,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.BestTimetoBuySellStock.executor": "Run",
-    "Application.ContainerWithMostWater.executor": "Run",
-    "Application.LongestSubstringWithoutRepeatingChars.executor": "Run",
-    "Application.ShortestPath.executor": "Run",
-    "Application.ThreeSum.executor": "Run",
-    "Application.TwoIntegerSumII.executor": "Run",
-    "Application.greedy.Dijkstra.ShortestPath.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Zayaan/D_git/dsa",
-    "onboarding.tips.debug.path": "D:/Zayaan/D_git/dsa/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.BestTimetoBuySellStock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContainerWithMostWater.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestSubstringWithoutRepeatingChars.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShortestPath.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ThreeSum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TwoIntegerSumII.executor&quot;: &quot;Run&quot;,
+    &quot;Application.greedy.Dijkstra.ShortestPath.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Zayaan/D_git/dsa&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Zayaan/D_git/dsa/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Zayaan\D_git\dsa\src\BinaryTrees" />
@@ -67,7 +68,7 @@
       <recent name="D:\Zayaan\D_git\dsa\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BestTimetoBuySellStock">
+  <component name="RunManager" selected="Application.LongestSubstringWithoutRepeatingChars">
     <configuration name="BestTimetoBuySellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindow.BestTimetoBuySellStock" />
       <module name="dsa" />
@@ -166,8 +167,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BestTimetoBuySellStock" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingChars" />
+        <item itemvalue="Application.BestTimetoBuySellStock" />
         <item itemvalue="Application.TwoIntegerSumII" />
         <item itemvalue="Application.ContainerWithMostWater" />
         <item itemvalue="Application.ThreeSum" />
